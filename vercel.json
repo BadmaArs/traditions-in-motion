@@ -4,7 +4,7 @@
     { "source": "/dagger", "destination": "/dagger.html" },
     { "source": "/jewerly", "destination": "/jewerly.html" },
     { "source": "/kibitka", "destination": "/kibitka.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/", "destination": "/index.html" }
   ],
   "headers": [
     {
