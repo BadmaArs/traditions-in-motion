@@ -1,9 +1,10 @@
 {
-  "routes": [
-    { "src": "/bottle", "dest": "/bottle.html" },
-    { "src": "/dagger", "dest": "/dagger.html" },
-    { "src": "/jewerly", "dest": "/jewerly.html" },
-    { "src": "/kibitka", "dest": "/kibitka.html" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "headers": [
+    {
+      "source": "/(.*).js",
+      "headers": [{ "key": "Content-Type", "value": "application/javascript" }]
+    }
   ]
 }
+
