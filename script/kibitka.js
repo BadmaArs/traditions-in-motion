@@ -136,15 +136,9 @@ window.addEventListener("scroll", () => {
 const ambientLight = new THREE.AmbientLight(0xffffff, 5.5);
 scene.add(ambientLight);
 
-const directionalLight = new THREE.DirectionalLight(0xffffff, 10);
+const directionalLight = new THREE.DirectionalLight(0xffffff, 8);
 directionalLight.position.set(1, 2, 0);
 scene.add(directionalLight);
-
-const directionalLightTwo = new THREE.DirectionalLight(0xffffff, 10);
-directionalLightTwo.position.z = 5;
-directionalLightTwo.position.y = 0.5;
-
-scene.add(directionalLightTwo);
 
 // Animate
 const clock = new THREE.Clock();
