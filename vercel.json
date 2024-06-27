@@ -1,0 +1,9 @@
+{
+  "routes": [
+    { "src": "/bottle", "dest": "/bottle.html" },
+    { "src": "/dagger", "dest": "/dagger.html" },
+    { "src": "/jewerly", "dest": "/jewerly.html" },
+    { "src": "/kibitka", "dest": "/kibitka.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
