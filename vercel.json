@@ -1,5 +1,11 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "rewrites": [
+    { "source": "/bottle", "destination": "/bottle.html" },
+    { "source": "/dagger", "destination": "/dagger.html" },
+    { "source": "/jewerly", "destination": "/jewerly.html" },
+    { "source": "/kibitka", "destination": "/kibitka.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
   "headers": [
     {
       "source": "/(.*).js",
@@ -7,4 +13,3 @@
     }
   ]
 }
-
